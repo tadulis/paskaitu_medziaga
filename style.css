@@ -1,23 +1,66 @@
-header, footer, nav, aside, article {
-    padding: 15px;
+*{
+    text-align: center;
+    box-sizing: border-box;
 }
 
-header, footer {
-    height: 100px;
-    background-color: rgb(140, 200, 18);
+body {
+    padding: 0.25%;
 }
 
-nav, aside, article {
-    display: inline-block;
-    height: 300px;
+.wrap, main {
+    background-color: darkblue;
+    padding: 0.25% 0;
 }
 
-nav, aside {
-    background-color: rgb(245, 244, 207);
-    width: 20%;
+.wrap {
+    padding: 0.25%;
+}
+
+header, footer, nav {
+    padding: 5vh;
+}
+
+header {
+    background-color: pink;
+    margin-bottom: 0.25%;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    height: 50vh;
+}
+
+section {
+    margin-right: 0.25%;
+    background-color: lightyellow;
+    flex: 2;
 }
 
 aside {
-    /*siai dienai labai retai naudojamas/vengiamas/nenaudojamas*/
-    float: right;
+    background-color: lightgrey;
+    flex: 1;
+    padding: 25vh 0;
+}
+
+.heading {
+    background-color: red;
+    padding: 0.25vh;
+    margin: 0.5vw;
+}
+
+.article {
+    background-color: purple;
+    padding: 19.7vh 0;
+    margin: 0 0.5vw;
+}
+
+footer {
+    background-color: orange;
 }
