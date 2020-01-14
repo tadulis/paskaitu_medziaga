@@ -1,48 +1,120 @@
+body{
+    background-color: #333F48;
+}
+
 .wrapper{
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
 header{
+    background-color: #FF4700;
+    color: white;
+    overflow:auto;
+}
+
+.title, .menu{
     text-align: center;
 }
 
-header img{
-    width: 250px;
-    margin: 10px 0;
+.menu{
+    padding: 10px 0;
 }
 
-header nav{
-    background-color: green;
-    padding: 20px 0;
-}
-
-header nav a{
+.menu a{
+    padding: 0 20px;
     color: white;
     text-decoration: none;
-    padding: 0 50px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
 }
 
 section{
-    padding: 30px;
+    padding: 50px 12px;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
 
-section h2{
-    background-color: green;
+#apie img{
+    width: 250px;
+    height: auto;
+}
+
+.content{
+    display: inline-block;
+    width: 715px;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.content p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content a{
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+#tvarkarastis table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#tvarkarastis table td{
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#tvarkarastis table td:first-child{
+    font-weight: bold;
+}
+
+#tvarkarastis table thead th{
+    font-size: 1.6em;
+    background-color: #EA9F26;
     color: white;
     padding: 10px;
-    margin: 0;
+    text-align: left;
 }
 
-#about{
-    background-color: #eee;
+#tvarkarastis td a{
+    color: #AB230D;
 }
 
-#contact{
-    background-color: lightgreen;
+#filosofija{
+    text-align: center;
 }
 
-.slideshow img{
-    width: 100%;
-    margin-bottom: 20px;
+#filosofija cite{
+    margin-bottom: 10px;
+}
+
+#filosofija cite span{
+    display: block;
+}
+
+#kontaktai{
+    padding-bottom: 0;
+    border: 0;
+}
+
+#kontaktai img{
+    max-width: 100%;
+}
+
+footer{
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    opacity: 0.5;
 }
