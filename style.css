@@ -1,66 +1,52 @@
-*{
+* {
     text-align: center;
-    box-sizing: border-box;
+}
+header, nav, main, article, footer {
+   border: solid black 1px;
 }
 
 body {
-    padding: 0.25%;
+    margin: 20px;
+    padding: 20px;
 }
 
-.wrap, main {
-    background-color: darkblue;
-    padding: 0.25% 0;
+header, footer {
+    padding: 20px;
+}
+nav, main {
+    height: 60vh;
+    padding-top: 20px;
 }
 
-.wrap {
-    padding: 0.25%;
-}
-
-header, footer, nav {
-    padding: 5vh;
-}
-
-header {
-    background-color: pink;
-    margin-bottom: 0.25%;
-}
-
-nav {
-    background-color: lightblue;
-}
-
-main {
+.main {
     display: flex;
 }
 
-section, aside {
-    height: 50vh;
+header {
+    background-color: green;
 }
 
-section {
-    margin-right: 0.25%;
-    background-color: lightyellow;
-    flex: 2;
-}
-
-aside {
-    background-color: lightgrey;
-    flex: 1;
-    padding: 25vh 0;
-}
-
-.heading {
+nav {
     background-color: red;
-    padding: 0.25vh;
-    margin: 0.5vw;
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-right: 20px;
 }
 
-.article {
-    background-color: purple;
-    padding: 19.7vh 0;
-    margin: 0 0.5vw;
+main {
+    background-color: yellow;
+    flex: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin: 10px;
+    height: 17vh;
+    background-color: violet;
 }
 
 footer {
-    background-color: orange;
+    background-color: purple;
 }
